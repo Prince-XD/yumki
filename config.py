@@ -23,7 +23,7 @@ ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5157142486:AAHVX-V3mHcfBVoyu9bhwIA6JMKDm3xfe90)
+BOT_TOKEN = getenv("BOT_TOKEN", "5157142486:AAHVX-V3mHcfBVoyu9bhwIA6JMKDm3xfe90")
 
 ## MONGO DB
 # HOW TO GEN :-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
