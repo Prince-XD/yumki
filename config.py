@@ -98,7 +98,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "1968830241").split())) + [500351483
 if str(getenv("STRING_SESSION1")).strip() == "":
     STRING1 = str(None)
 else:
-    STRING1 = str(getenv("STRING_SESSION1", ""))
+    STRING1 = str(getenv("STRING_SESSION1", "AQCFZ6sIwX485rMsOlXQCl56ZgTaz09jM6VA_yaY7GTZM5byXt552ZkDlCdmFiqELkReJM0kzTe2CrTmxF-cjZoudktzRbJQ5K5f-HoFE_gIFzr8aCjgm0lgY8NlEldCCtrAeAl2GuYdBqIOU9uooXo7MYCkqvzi9RVMUik_XYZBfi_khY4J6mSAgfw2WcQSpbetIHEu4wy7pLBwcfEZ9S3WhdunY-9rV99jMBKzVEkuy-B98tDjME8Y3uVhz0_UNIxcVKT10NA9n0CuJKcOtGxRqkYAGlB4MVBcXrtokweOOkRf1h2ci5oorljIgXYli6GegSh5BqnC50-vzs9iwEbGAAAAATf_Kb0A"))
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     STRING2 = str(None)
